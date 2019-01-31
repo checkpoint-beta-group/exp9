@@ -16,7 +16,7 @@ public class FactoryIntegrationTest {
 
 	MapParser parser;
 
-	private String[] map = new String[] { "#####", "#...#", "#GPG#", "#   #",
+	private String[] map = new String[] {"#####", "#...#", "#GPG#", "#   #",
 			"#####" };
 
 	@Before
