@@ -76,7 +76,7 @@ public class Game extends Observable
 	 * Player intends to move towards an occupied tile:
 	 * if there's a ghost there, the game is over.
 	 * @param p The player
-	 * @param currentSprite
+	 * @param currentSprite indicates the current sprite in use
 	 */
 	private void dieIfGhost(Player p, Sprite currentSprite) {
 		if (currentSprite instanceof Ghost) {
@@ -100,7 +100,7 @@ public class Game extends Observable
 	/**
 	 * Check if there's room on the target tile.
 	 * @param target Tile to be occupied by other sprite.
-	 * @return
+	 * @return whether the instance is empty or not
 	 */
 	private boolean tileCanBeOccupied(Tile target) {
 		Sprite currentOccupier = target.topSprite();
@@ -171,7 +171,7 @@ public class Game extends Observable
 
 	/**
 	 * Opt for another way of keeping track of the points.
-	 * @param pointManager Responsible for keeping track of points.
+	 * @param PointManager Responsible for keeping track of points.
 	 */
 	public void setPointManager(PointManager PointManager) {
 		this.pointManager = PointManager;

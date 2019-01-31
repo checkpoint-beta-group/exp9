@@ -230,7 +230,7 @@ public class BoardView extends JPanel {
 	}
 	
 	/**
-	 * @param sprite
+	 * @param sprite sprite to use for the game
 	 * @return An image for this sprite.
 	 */
     private Image spriteImage(Sprite sprite) {

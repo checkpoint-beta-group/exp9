@@ -18,8 +18,8 @@ public class Tile {
 	
 	/**
 	 * Create a new tile for the given location.
-	 * @param x horizontal coordinate
-	 * @param y vertical coordinate
+	 * @param X horizontal coordinate
+	 * @param Y vertical coordinate
 	 */
 	public Tile(int X, int Y) {
 		this.x = X;

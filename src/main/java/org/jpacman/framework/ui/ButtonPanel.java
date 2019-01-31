@@ -43,7 +43,7 @@ public class ButtonPanel extends JPanel {
 	
 	/**
 	 * Create a new panel, given the parent's containing frame.
-	 * @param parent Containing frame.
+	 * @param Parent Containing frame.
 	 */
     public ButtonPanel(JFrame Parent) {
     	this.parent = Parent;
