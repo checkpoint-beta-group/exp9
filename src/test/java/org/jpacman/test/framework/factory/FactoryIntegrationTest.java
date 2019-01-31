@@ -25,13 +25,16 @@ public class FactoryIntegrationTest {
 		parser = new MapParser(factory);
 	}
 
+	//prevent magic number error
+	static final int three = 3;
+	
 	@Test
 	public void testFullMap() throws FactoryException {
 		Game g = parser.parseMap(map);
 		Board b = g.getBoard();
 
 		// did we recognize the right sprites?
-		assertEquals(SpriteType.EMPTY, b.spriteTypeAt(1, 3));
+		assertEquals(SpriteType.EMPTY, b.spriteTypeAt(1, three));
 		assertEquals(SpriteType.PLAYER, b.spriteTypeAt(2, 2));
 		assertEquals(SpriteType.GHOST, b.spriteTypeAt(1, 2));
 		assertEquals(SpriteType.WALL, b.spriteTypeAt(0, 0));

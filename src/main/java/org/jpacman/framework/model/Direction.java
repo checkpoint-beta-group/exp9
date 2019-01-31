@@ -19,9 +19,9 @@ public enum Direction {
 	 * @param dx horizontal move
 	 * @param dy vertical move
 	 */
-	Direction(int dx, int dy) {
-		this.dx = dx;
-		this.dy = dy;
+	Direction(int Dx, int Dy) {
+		this.dx = Dx;
+		this.dy = Dy;
 	}
 	
 	/**

@@ -21,9 +21,9 @@ public class Tile {
 	 * @param x horizontal coordinate
 	 * @param y vertical coordinate
 	 */
-	public Tile(int x, int y) {
-		this.x = x;
-		this.y = y;
+	public Tile(int X, int Y) {
+		this.x = X;
+		this.y = Y;
 		sprites = new ArrayDeque<Sprite>();
 	}
 	

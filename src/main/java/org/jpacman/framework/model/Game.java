@@ -173,8 +173,8 @@ public class Game extends Observable
 	 * Opt for another way of keeping track of the points.
 	 * @param pointManager Responsible for keeping track of points.
 	 */
-	public void setPointManager(PointManager pointManager) {
-		this.pointManager = pointManager;
+	public void setPointManager(PointManager PointManager) {
+		this.pointManager = PointManager;
 	}
 
 	/**

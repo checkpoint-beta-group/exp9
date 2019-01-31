@@ -12,8 +12,8 @@ public class Food extends Sprite {
 		return points;
 	}
 
-	public void setPoints(int points) {
-		this.points = points;
+	public void setPoints(int Points) {
+		this.points = Points;
 	}
 	
 	/**
